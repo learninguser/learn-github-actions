@@ -6,3 +6,5 @@ jobs:
         steps:
             - name: Print Hello World
               run: echo "Hello, World!"
+            - run: echo "This is a test workflow for GitHub Actions."
+            - run: echo "This workflow runs on every push to the repository."
